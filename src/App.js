@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Route from './components/Route';
+import Resume from './components/Resume';
+import About from './components/About';
+import CV from './components/CV';
+import Login from './components/Login';
+import Blog from './components/Blog';
+import './CSS/Header.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render(){
+    return(
+      <div>
+        <Header/>
+        <Route path="/">
+          <Home />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path="/resume">
+          <Resume />
+        </Route>
+        <Route path="/cv">
+          <CV />
+        </Route>
+        <Footer/>
+
+      </div>
+    );
+  }
 }
 
 export default App;

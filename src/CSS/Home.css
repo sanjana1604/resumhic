@@ -1,0 +1,77 @@
+Carousel.Caption{
+  color:black;
+}
+
+@media (min-width: 200px) {
+  .heading{
+    font-size: 25px;
+    text-align:justify;
+    background-color:slateblue;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  .steps{
+    font-size: 15px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  #first_col{
+    text-align: justify;
+  }
+  #second_col{
+    text-align: center;
+  }
+  .img-thumbnail{
+    width:200px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .card{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width:10rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+}
+
+@media (min-width: 768px) {
+  .row_1{
+    height: 200px;
+  }
+  .heading{
+    font-size: 45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+  }
+  .steps{
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  #first_col{
+    text-align: center;
+  }
+  #second_col{
+    text-align: right;
+  }
+  .img-thumbnail{
+    margin-top: 1.2rem;
+    width:300px;
+  }
+  .line_through{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  h2 span {
+    background: #fff;
+    padding: 0 10px;
+}
+  .card{
+    width:20rem;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    align-content: center;
+  }
+} 

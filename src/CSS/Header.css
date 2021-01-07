@@ -1,0 +1,47 @@
+/* primary nav */
+
+
+ul .nav{
+  position: absolute;
+  right:0px;
+}
+
+i{
+  padding-left: 5px;
+}
+
+h6{
+  color:white;
+}
+
+.fa-facebook{
+  color:blue;
+}
+
+.fa-instagram{
+  color:violet;
+}
+
+.fa-twitter{
+  color:cornflowerblue
+}
+
+.fa-pinterest-square{
+  color:red;
+}
+
+.navbar-brand{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* secondary nav */
+
+.navbar-nav{
+  position: fixed;
+  right: 0px;
+}
+
+.nav-item{
+  padding-left: 20px;
+}
